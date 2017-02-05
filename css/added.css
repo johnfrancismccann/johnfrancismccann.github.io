@@ -1,0 +1,7 @@
+section.maroon-background {
+  background: #ba4c63;
+}
+
+hr.star-light.maroon-background:after {
+  background: #ba4c63;
+}

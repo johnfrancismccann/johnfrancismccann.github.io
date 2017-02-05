@@ -183,7 +183,9 @@ section {
 }
 section h2 {
   margin: 0;
-  font-size: 3em;
+  /* CHANGE */
+  /* font-size: 3em; */
+  font-size: 4em;
 }
 section.success {
   background: #18BC9C;
@@ -204,7 +206,8 @@ section.success {
 #portfolio .portfolio-item .portfolio-link {
   display: block;
   position: relative;
-  max-width: 400px;
+  /* CHANGE */
+  /* max-width: 400px; */
   margin: 0 auto;
 }
 #portfolio .portfolio-item .portfolio-link .caption {
