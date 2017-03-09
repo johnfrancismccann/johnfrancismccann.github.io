@@ -5,3 +5,35 @@ section.maroon-background {
 hr.star-light.maroon-background:after {
   background: #ba4c63;
 }
+
+.orange-red, .orange-red hr.star-light:after,
+.navbar-custom .navbar-toggle:hover,
+.navbar-custom .navbar-toggle:focus,
+.navbar-custom .navbar-nav li.active a,
+.navbar-custom .navbar-nav li.active a:hover,
+.navbar-custom .navbar-nav li.active a:focus,
+.navbar-custom .navbar-nav li.active a:active {
+  background: #9e2222;
+}
+
+.navbar-custom .navbar-nav li a:hover {
+    color: #9e2222;
+}
+
+.navy, .navy hr.star-light:after {
+    background: #2C3E50;
+}
+
+header object {
+    margin: 0 auto 20px;
+    height: 256px;
+    width: 256px;
+}
+
+body section#about {
+    /* background-color: #2C3E50; */
+}
+
+p {
+    text-align: center;
+}
