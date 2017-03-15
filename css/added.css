@@ -1,9 +1,14 @@
 section.maroon-background {
-  background: #ba4c63;
+    background: #ba4c63;
 }
 
 hr.star-light.maroon-background:after {
-  background: #ba4c63;
+    background: #ba4c63;
+}
+
+a:hover, a:focus {
+    text-decoration: none; 
+    outline: none;
 }
 
 .orange-red, .orange-red hr.star-light:after,
@@ -12,16 +17,24 @@ hr.star-light.maroon-background:after {
 .navbar-custom .navbar-nav li.active a,
 .navbar-custom .navbar-nav li.active a:hover,
 .navbar-custom .navbar-nav li.active a:focus,
-.navbar-custom .navbar-nav li.active a:active {
-  background: #9e2222;
+.navbar-custom .navbar-nav li.active a:active { 
+/* #portfolio .portfolio-item .portfolio-link .caption { */
+  /* background: #9e2222; */
+    background: rgb(158, 34, 34);
 }
 
-.navbar-custom .navbar-nav li a:hover {
+.navbar-custom .navbar-nav li a:hover,
+.modal-body a {
     color: #9e2222;
 }
 
+/* NAVY */
 .navy, .navy hr.star-light:after {
     background: #2C3E50;
+}
+
+.modal-body h2 a {
+    color: #2C3E50;
 }
 
 header object {
@@ -37,3 +50,42 @@ body section#about {
 p {
     text-align: center;
 }
+
+.portfolio-overlay {
+    /* display: block; */
+    /* background: #9e2222; */
+    height: 100%; 
+    /* height: auto;  */
+    width: 100%;
+    position: absolute;
+}
+
+.portfolio-image {
+    border-radius: 100%;
+    display: block;
+    height: auto;
+    position: relative;
+    transform: translateY(-50%);
+    top: 50%;
+    margin: 0 auto;
+    width: 55%;
+}
+
+#portfolio .portfolio-item .portfolio-link .caption .caption-content {
+    height: auto;
+    transform: translateY(-50%);
+    margin-top: 0px;
+}
+
+.caption span {
+    font-size: 1.75em;
+    line-height: 1;
+}
+
+.modal-body a.project-link {
+  display: block;
+  position: relative;
+  margin: 0 auto;
+}
+
+
