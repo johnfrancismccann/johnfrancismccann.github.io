@@ -17,14 +17,15 @@ a:hover, a:focus {
 .navbar-custom .navbar-nav li.active a,
 .navbar-custom .navbar-nav li.active a:hover,
 .navbar-custom .navbar-nav li.active a:focus,
-.navbar-custom .navbar-nav li.active a:active { 
+.navbar-custom .navbar-nav li.active a:active,
+footer .footer-above { 
 /* #portfolio .portfolio-item .portfolio-link .caption { */
   /* background: #9e2222; */
     background: rgb(158, 34, 34);
 }
 
 .navbar-custom .navbar-nav li a:hover,
-.modal-body a {
+.btn-outline:hover {
     color: #9e2222;
 }
 
@@ -33,8 +34,20 @@ a:hover, a:focus {
     background: #2C3E50;
 }
 
-.modal-body h2 a {
+.navy-font {
     color: #2C3E50;
+}
+
+.white {
+    background: white;
+}
+
+.white-font {
+    color: white;
+}
+
+.modal-body a {
+    color: #333;
 }
 
 header object {
@@ -87,5 +100,22 @@ p {
   position: relative;
   margin: 0 auto;
 }
+
+.portfolio-media {
+/* video { */
+    border: solid 5px #333;
+    height: auto;
+    width: 900px;
+}
+
+hr.star-primary {
+    border-color: #333;
+}
+
+hr.star-primary:after {
+    color: #333;
+}
+
+
 
 
