@@ -108,6 +108,10 @@ p {
     width: 900px;
 }
 
+.portfolio-modal .modal-content video {
+    margin-bottom: 30px;
+}
+
 hr.star-primary {
     border-color: #333;
 }
