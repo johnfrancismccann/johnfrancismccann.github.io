@@ -121,5 +121,25 @@ hr.star-primary:after {
 }
 
 
+@media (max-width: 500px) {
+    .portfolio-modal .modal-content {
+        padding: 30px 0;
+    }
+
+    .portfolio-modal .modal-body h2 {
+        font-size: 2em;
+    }
+    
+    .portfolio-modal .close-modal {
+        top: 13px;
+        right: 13px;
+    }
+
+    .portfolio-modal .close-modal .lr .rl,
+    .portfolio-modal .close-modal .lr {
+        height: 30px;
+    }
+}
+
 
 
