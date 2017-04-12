@@ -5,4 +5,7 @@
         var videoTargetID = this.getAttribute("data-video-target");
         document.getElementById(videoTargetID).pause();
     });
+
+    webshims.polyfill('forms es5');
 })(jQuery);
+

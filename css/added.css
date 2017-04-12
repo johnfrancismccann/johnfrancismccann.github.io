@@ -18,14 +18,22 @@ a:hover, a:focus {
 .navbar-custom .navbar-nav li.active a:hover,
 .navbar-custom .navbar-nav li.active a:focus,
 .navbar-custom .navbar-nav li.active a:active,
+.btn,
 footer .footer-above { 
 /* #portfolio .portfolio-item .portfolio-link .caption { */
   /* background: #9e2222; */
     background: rgb(158, 34, 34);
 }
 
+.orange-red-font,
+a:active,
+a:hover,
+a:focus,
+a:visited,
 .navbar-custom .navbar-nav li a:hover,
-.btn-outline:hover {
+.modal-body p a,
+.btn-outline:hover,
+.floating-label-form-group-with-focus label {
     color: #9e2222;
 }
 
@@ -34,6 +42,7 @@ footer .footer-above {
     background: #2C3E50;
 }
 
+.btn:hover,
 .navy-font {
     color: #2C3E50;
 }
@@ -42,6 +51,7 @@ footer .footer-above {
     background: white;
 }
 
+.btn,
 .white-font {
     color: white;
 }
@@ -140,6 +150,18 @@ hr.star-primary:after {
         height: 30px;
     }
 }
+
+section#contact p#contactMessage {
+    margin-bottom: 20px;
+}
+
+.form-control {
+    color: white;
+    padding-bottom: 3px;
+    padding-top: 3px;
+}
+
+
 
 
 
