@@ -339,23 +339,43 @@
                                 <img src="img/portfolio/storyphotos.jpeg" class="img-responsive img-centered portfolio-media" alt="">
                             </a>
                             <p>
-                                I recently returned home after a 20 month long
-                                trip abroad, and I wanted to reflect on the
-                                experience by creating a mobile-friendly
-                                website that would share photos and short
-                                stories from my travels. I wanted to design the
-                                website to have a unique look and feel, so I
-                                wrote the html and css from scratch. I wrote
-                                the backend in django and deployed on Heroku's
-                                cloud platform.  I used jQuery 
-                                <a href="">fullPage.js</a> for the automated
-                                scrolling, and the black and white
-                                    illustrations are modifications I made to
-                                    graphics from <a href="">openclipart</a>.
-                                The website is almost done, but I still have
-                                to enter some content, and brush up a few
-                                details.
+                                Story Photos is a website I designed and coded
+                                to share short stories and photographs from my
+                                travels. The website is fully responsive and
+                                maintains a smooth user experience across a
+                                wide range of OS, browser, and device
+                                combinations. 
                             </p>
+                            <p>
+                                I wanted Storyphotos to have a unique look and
+                                feel, so I wrote the html and
+                                css from scratch. For the automated scrolling, I
+                                used Álvaro Trigo's awesome
+                                jQuery plugin <a
+                                href="http://alvarotrigo.com/fullPage/">
+                                fullpage.js</a>, and
+                                for the black and white
+                                illustrations, I made modifications to some cool
+                                graphics downloaded from <a
+                                href="https://openclipart.org/">Openclipart</a>. 
+                            </p>
+                            <p>
+                                I wrote the backend using Django, and am hosting
+                                the app with Heroku. The app
+                                communicates with a <a
+                                href="http://gunicorn.org/">Gunicorn</a> WSGI
+                                HTTP web server, and uses a
+                                Postgres database hosted on AWS to store textual
+                                story entries. Django app <a
+                                href="http://whitenoise.evans.io/">
+                                Whitenoise</a> handles static file serving.
+                                And I am using the Django app
+                                <a href="https://boto3.readthedocs.io/en/latest/">
+                                Boto3</a> to communicate with an Amazon S3
+                                bucket to store media assets like the
+                                fullscreen background images. 
+                            </p>
+
                             <!-- <ul class="list-inline item-details">
                                 <li>Client:
                                     <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
