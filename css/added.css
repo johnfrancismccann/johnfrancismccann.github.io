@@ -74,6 +74,10 @@ p {
     text-align: center;
 }
 
+section#about p {
+    margin-bottom: 5px;
+}
+
 .portfolio-overlay {
     /* display: block; */
     /* background: #9e2222; */
