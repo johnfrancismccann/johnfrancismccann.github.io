@@ -165,6 +165,25 @@ section#contact p#contactMessage {
     padding-top: 3px;
 }
 
+#around-web .btn-social {
+    align-items:center;
+    display: flex;
+}
+
+ul#around-web li a svg {
+    height: 38%;
+    margin: auto auto;
+}
+
+ul#around-web li a svg path {
+    fill: white;
+}
+
+ul#around-web li a:hover svg path,
+ul#around-web li a:active svg path,
+ul#around-web li a:focus svg path {
+    fill: #9e2222;
+}
 
 
 
