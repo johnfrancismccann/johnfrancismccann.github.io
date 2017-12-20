@@ -126,6 +126,10 @@ section#about p {
     margin-bottom: 30px;
 }
 
+hr {
+    overflow: visible;
+}
+
 hr.star-primary {
     border-color: #333;
 }
