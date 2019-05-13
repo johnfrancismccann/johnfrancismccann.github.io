@@ -18,7 +18,7 @@ a:hover,
 a:focus,
 a:active,
 a.active {
-  color: #18BC9C;
+  color: #24a037;
   outline: none;
 }
 h1,
@@ -116,6 +116,8 @@ header .intro-text .skills {
 }
 .navbar-custom .navbar-brand {
   color: white;
+  /* color: #2C3E50; */
+  /* color: #777b82; */
 }
 .navbar-custom .navbar-brand:hover,
 .navbar-custom .navbar-brand:focus,
@@ -128,6 +130,8 @@ header .intro-text .skills {
 }
 .navbar-custom .navbar-nav li a {
   color: white;
+  /* color: #2C3E50; */
+  /* color: #777b82; */
 }
 .navbar-custom .navbar-nav li a:hover {
   /* color: #18BC9C; */
@@ -314,7 +318,7 @@ footer .footer-col {
 }
 footer .footer-below {
   padding: 25px 0;
-  background-color: #233140;
+  /* background-color: #233140; */
 }
 .btn-outline {
   color: white;
@@ -509,4 +513,8 @@ fieldset[disabled] .btn-success.active {
 .portfolio-modal .modal-backdrop {
   opacity: 0;
   display: none;
+}
+
+.navy-font {
+    color: #2C3E50;
 }

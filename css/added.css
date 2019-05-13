@@ -11,7 +11,7 @@ a:hover, a:focus {
     outline: none;
 }
 
-.orange-red, .orange-red hr.star-light:after,
+.green, .green hr.star-light:after,
 .navbar-custom .navbar-toggle:hover,
 .navbar-custom .navbar-toggle:focus,
 .navbar-custom .navbar-nav li.active a,
@@ -21,25 +21,40 @@ a:hover, a:focus {
 .btn,
 footer .footer-above { 
 /* #portfolio .portfolio-item .portfolio-link .caption { */
-  /* background: #9e2222; */
-    background: rgb(158, 34, 34);
+    background: #24a037;
 }
 
-.orange-red-font,
-a:active,
-a:hover,
-a:focus,
-a:visited,
-.navbar-custom .navbar-nav li a:hover,
+footer .footer-above.navy {
+  background: #2171bd;
+}
+
+.grey {
+  background: #777b82;
+}
+
+.green {
+  background: #24a037;
+}
+
+.green-font,
+/* a:active, */
+/* a:hover, */
+/* a:focus, */
+/* a:visited, */
+/* .navbar-custom .navbar-nav li a:hover, */
 .modal-body p a,
 .btn-outline:hover,
 .floating-label-form-group-with-focus label {
-    color: #9e2222;
+    color: #24a037;
 }
 
-/* NAVY */
+.navbar-custom .navbar-nav li a:hover {
+    color: white;
+}
+
+/* Ocean Blue */
 .navy, .navy hr.star-light:after {
-    background: #2C3E50;
+  background: #2171bd;
 }
 
 .btn:hover,
@@ -80,7 +95,6 @@ section#about p {
 
 .portfolio-overlay {
     /* display: block; */
-    /* background: #9e2222; */
     height: 100%; 
     /* height: auto;  */
     width: 100%;
@@ -186,7 +200,7 @@ ul#around-web li a svg path {
 ul#around-web li a:hover svg path,
 ul#around-web li a:active svg path,
 ul#around-web li a:focus svg path {
-    fill: #9e2222;
+    fill: #24a037;
 }
 
 
