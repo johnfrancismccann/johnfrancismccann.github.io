@@ -48,6 +48,10 @@ footer .footer-above.navy {
     color: #24a037;
 }
 
+a.green-font:hover {
+    color: #24a037;
+}
+
 .navbar-custom .navbar-nav li a:hover {
     color: white;
 }
@@ -59,7 +63,11 @@ footer .footer-above.navy {
 
 .btn:hover,
 .navy-font {
-    color: #2C3E50;
+    color: #2171bd;
+}
+
+a.navy-font:hover {
+    color: #2171bd;
 }
 
 .white {

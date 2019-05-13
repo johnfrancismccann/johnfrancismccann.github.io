@@ -18,7 +18,8 @@ a:hover,
 a:focus,
 a:active,
 a.active {
-  color: #24a037;
+  /* color: #18BC9C; */
+  /* color: #2171bd; */
   outline: none;
 }
 h1,
@@ -319,6 +320,7 @@ footer .footer-col {
 footer .footer-below {
   padding: 25px 0;
   /* background-color: #233140; */
+  background: #2171bd;
 }
 .btn-outline {
   color: white;
